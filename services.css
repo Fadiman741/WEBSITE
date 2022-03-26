@@ -1,0 +1,58 @@
+.servicesText.card {
+  height: 280px;
+  cursor: pointer;
+}
+.servicesIcon {
+  font-size: 36px;
+  text-align: center;
+  width: 100%;
+  border: 1px solid #3b3c36;
+}
+.card-title {
+  text-align: center;
+
+  color: #3b3c36;
+  height: 55px;
+}
+.card:hover .servicesIcon {
+  color: #6a12b8;
+}
+.container {
+  margin: 15%;
+  font-family: Mono, monospace;
+}
+.col-lg-4 {
+  float: left;
+  width: 450px;
+  margin: 20px;
+  border: none;
+}
+.col-lg-4 p {
+  font-family: Arial;
+  color: #3b3c36;
+  font-size: 16px;
+  text-align: center;
+  margin: 20px;
+}
+.container h1 {
+  font-family: Arial;
+  color: #aaa;
+  text-align: center;
+  font-size: 100px;
+}
+.card-body {
+  box-shadow: 0px 0px 1px 1px #ddd;
+  background-color: #ddd;
+  height: 300px;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+}
+
+.card-body:hover,
+.card-body:focus,
+.card-body:active {
+  border: 2px solid #3b3c36;
+  box-shadow: 0px 0px 20px 2px #bbb;
+  -webkit-transform: scale(1.01);
+  transform: scale(1.03);
+}

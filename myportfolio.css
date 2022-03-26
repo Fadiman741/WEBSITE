@@ -1,0 +1,60 @@
+.myportfolio {
+  margin: 10%;
+}
+.myportfolio h1 {
+  color: #aaa;
+
+  font-size: 100px;
+}
+.portfolio-column {
+  margin-top: 10%;
+  height: 650px;
+
+  float: left;
+  width: 50%;
+  font-family: Arial;
+  color: rgb(58, 56, 54);
+  font-size: 20px;
+  background-color: white;
+}
+.portfolio-column h1 {
+  margin: 20px;
+}
+.portfolio-column p {
+  margin-top: 30px;
+  font-size: 17px;
+}
+.button {
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #3b3c36;
+  border: 3px;
+  border-radius: 15px;
+  height: 180px;
+  width: 250px;
+  float: left;
+  margin: 10px;
+  background-color: #ddd;
+  position: relative;
+}
+.portfolio-column button {
+  width: 100px;
+
+  height: 40px;
+  display: none;
+
+  float: left;
+  border-radius: 5px;
+  margin-top: 80px;
+  margin-left: 15px;
+  border: 2px solid white;
+}
+.button:hover button {
+  background-color: white;
+  display: block;
+}
+.portfolio-column button:hover {
+  box-shadow: 0px 0px 2px 2px #3b3c36;
+}

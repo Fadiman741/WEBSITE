@@ -1,0 +1,30 @@
+.myself-container {
+  margin: 10%;
+  height: 300px;
+}
+.myself-column h1 {
+  color: #aaa;
+
+  font-size: 100px;
+}
+.myself-column {
+  float: left;
+  width: 50%;
+  font-family: Arial;
+  color: #3b3c36;
+  font-size: 17px;
+  background-color: white;
+  position: relative;
+}
+.myself-column h1 {
+  margin-top: 20%;
+}
+.myself-column p {
+  margin-top: 20%;
+}
+.myself-column img {
+  margin-top: 20%;
+  width: 90%;
+  height: 90%;
+  display: block;
+}
