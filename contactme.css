@@ -1,0 +1,57 @@
+.contactContent {
+  margin: 20%;
+}
+.col-lg-6 {
+  float: left;
+  width: 50%;
+}
+.form input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  height: 50px;
+  width: 100%;
+  margin: 20px;
+}
+.form textarea {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  height: 150px;
+  width: 100%;
+  margin: 20px;
+}
+.col-lg-6 button {
+  margin: 20px;
+  height: 50px;
+  background-color: #3b3c36;
+  color: white;
+  border-radius: 0;
+  width: 40%;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+}
+.contactContent h2 {
+  text-align: center;
+  margin: 0;
+  color: #aaa;
+  font-family: Arial;
+  font-size: 70px;
+}
+.contactContent p {
+  text-align: center;
+  margin-bottom: 70px;
+  font-size: 25px;
+  font-family: Arial;
+}
+label {
+  font-size: 16px;
+  margin-left: 20px;
+  font-family: Arial;
+}
+iframe {
+  width: 100%;
+}
+textarea {
+  font-family: Arial;
+}
