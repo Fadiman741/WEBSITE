@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,29 +13,30 @@
    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 
 
+   <link href="lightbox.min.css" rel="stylesheet" />
+   <script src="lightbox-plus-jquery.min.js"></script>
 
-
-   <link href="sidenav.css" rel="stylesheet" type="text/css" />
-   <link href="profile.css" rel="stylesheet" type="text/css" />
-   <link href="myportfolio.css" rel="stylesheet" type="text/css" />
-   <link href="myskills.css" rel="stylesheet" type="text/css" />
-   <link href="memyselft.css" rel="stylesheet" type="text/css" />
+   <link href="css/sidenav.css" rel="stylesheet" type="text/css" />
+   <link href="css/profile.css" rel="stylesheet" type="text/css" />
+   <link href="css/myportfolio.css" rel="stylesheet" type="text/css" />
+   <link href="css/myskills.css" rel="stylesheet" type="text/css" />
+   <link href="css/memyselft.css" rel="stylesheet" type="text/css" />
    <!--<link href="contactus.css" rel="stylesheet" type="text/css" />-->
-   <link href="gallery.css" rel="stylesheet" type="text/css" />
-   <link href="services.css" rel="stylesheet" type="text/css" />
-   <link href="contactme.css" rel="stylesheet" type="text/css" />
-   <link href="footer.css" rel="stylesheet" type="text/css" />
+   <link href="css/gallery.css" rel="stylesheet" type="text/css" />
+   <link href="css/services.css" rel="stylesheet" type="text/css" />
+   <link href="css/contactme.css" rel="stylesheet" type="text/css" />
+   <link href="css/footer.css" rel="stylesheet" type="text/css" />
 
    <script src="header.js"></script>
    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
-   <title>www.mafadi.com</title>
+   <title>Portfolio Website</title>
 </head>
 
 <body>
 
 
-   <div id="myprofile" class="profile">
+   <div  class="profile" id="home">
       <div class="column left" style="background-color:#3B3C36">
          <style>
             .topnav {
@@ -58,21 +61,27 @@
             }
          </style>
          <div id="myheader" class="topnav">
-            <a class="active" href="#contacts">Contact</a>
-            <a href="#projects">Projects</a>
-            <a href="#skills">Skills</a>
-            <a href="#about">About</a>
-            <a href="#home">Home</a>
+            <a class="active" href="#six">Contact</a>
+            <a href="#five">Gallery</a>
+            <a href="#four">Projects</a>
+            <a href="#three">Services</a>
+            <a href="#two">Skills</a>
+            <a href="#one">About</a>
+            
          </div>
          <h1>I'm </h1>
          <h2>Mafadi Lephaka</h2>
          <h3>Software Developer || Web Developer</h3>
-         
-         <button><i class="fa fa-download" style="font-size:16px; padding: 2px"></i>Download Resume</button>
-         <p>A tech enthusiast keen to work in the tech industry. I keep updated with the latest tech trends but
-            also love legacy devices which have lead the way for future advancements. I also have a comfortable understanding of Software Engineering
-            principles and practices and have worked in a team creating software. I am looking for opportunities in which I can learn new and
-            relevant skills as I grow my career as a Software/Web Developer.</p>
+         <a href="Mafadicv.pdf" download="w3logo">
+            <button src="/images/myw3schoolsimage.jpg"><i class="fa fa-download" style="font-size:16px; padding: 2px"></i>Download Resume</button>
+           
+         </a>
+         <!--<button  ><i class="fa fa-download" style="font-size:16px; padding: 2px"></i>Download Resume</button>-->
+         <p>I am a quick learner and hardworking individual passionate about software development. I keep updated with the
+         latest tech trends but also love legacy devices which have led the way for future advancements. I also have a good
+         understanding of Software Engineering principles and practices and have worked in teams creating software and
+         currently building my portfolio website. I am looking for opportunities in which I can use, learn and relevant skills as
+         I grow my career as a Software Engineer/Developer.</p>
          <br>
          <div class="skill-column">
             <p> Highly skilled at progressive enhancement, design systems, Web development,computer network andsoftware engineering </p>
@@ -102,32 +111,37 @@
       </div>
    </div>
 
-   <div class="myself-container">
-     
+   <div class="myself-container" id="one">
       <div class="myself-column">
-         
-         <img src="prof.jpg"  class="image" style="opacity:0.8 #aaa">    
-         
-         
+         <img src="prof.jpg"  class="image" style="opacity:0.5 #aaa">    
       </div>
-
       <div class="myself-column">
          <h1>Me,Myself and I</h1>
-         <p>I am a final year Computer Science student at the University of the Western Cape and expect to complete my
-            degree in December 2022. I have thus far completed all my core Computer Science modules and have one outstanding
-            Statistics module which will only commence in the second semester of 2022. I am currently seeking opportunities to develop as
-            a Software Engineer during my gap semester. </p>
-
-         <p>I have experience in several tools such as Git, GitHub, Jupyter Notebook and Microsoft Project amongst
-         others and have developed skills in front-end using Windows and Linux environments using Python, Java, React and HTML. I
-         also have a comfortable understanding of Software Engineering Principles and Practices. I am looking for
-         opportunities in which I can use my skills</p>
-
+         <p>I am a Computer Science major at the University of the Western Cape and expect to complete my degree in December
+         2022. I have thus far completed all my core Computer Science modules and have one outstanding Statistics module
+         which will only commence in the second semester of 2022. I am self-motivated individual currently seeking
+         opportunities to use my skills also grow my knowledge. </p>
+         <p>
+            I am a comfortable experience with software development and looking for a job opportunity that will allow me to
+            exercise my innate strengths and potentialPast experience has shown me that I am a quick learner and I often find it
+            easy to understand new technologies. I have a flexible work ethic that allows me to work with a variety of technologies
+            as well as with people of different backgrounds and I have good communication skills.
+         </p>
+         <p>I have experience in several tools such as Git, GitHub, Jupyter Notebook and Microsoft Project amongst others and
+         have developed skills in front-end and back-end in Windows and Linux environments using Python, Java, React, CSS,
+         MySQL, HTML and JavaScript. I also have a comfortable understanding of Software Engineering Principles and Practices,
+         in addition to this I have worked in a team creating software. I am looking for opportunities in which I can bring my
+         skills and learn new relevant skills as I grow my career
+      </p>
+            <p>I have experience in several tools such as Git, GitHub, Jupyter Notebook and Microsoft Project amongst
+               others and have developed skills in front-end using Windows and Linux environments using Python, Java, React and
+               HTML. I
+               also have a comfortable understanding of Software Engineering Principles and Practices. I am looking for
+               opportunities in which I can use my skills</p>
       </div>
-
    </div>
    
-   <div class="skills-container">
+   <div class="skills-container" id="two">
       <h1>SKILLS AND KNOWLEDGE HIGHLIGHTS </h1>
       <div class="skills rotate_right">
 
@@ -145,27 +159,25 @@
             <li>Innovative</li>
             <li>Prototyping with the following Adobe suit(illustrator,Photoshop, XD).</li>
             <li>Web development (coding, design, layout )</li>
-            
          </ul>
       </div>
       <div class="skills rotate_left">
          <h2>PROGRAMMING LANGUAGES/ FRAMEWORK</h2>
          <br>
          <ul class="listskills">
-            
             <li>  Python (Numpy, Pandas, Matplot)</li>
-            <li>SAS</li>
-            <li> R</li>
             <li>Java</li>
-            <li> React.js</li>
             <li>JavaScript</li>
+            <li> React.js</li>
             <li>HTML</li>
-            <li> CSS.</li>
-            <li>SQL</li>
+            <li> CSS</li>
             <li>JSON</li>
+            <li>SQL</li>
             <li>BootStrap</li>
+            <li> R</li>
+            <li>SAS</li>
+ 
          </ul>
-        
             <h2>TOOLS AND TECHNOLOGIES</h2>
             <br>
             <ul class="listskills">
@@ -176,13 +188,13 @@
             </ul>
       </div>
    </div>
-   <div class="container">
+   <div class="container" id="three">
       <h1 class="text-center">Services</h1>
       <div class="row">
          <div class="col-lg-4 mt-4">
             <div class="card servicesText">
                <div class="card-body">
-                  <i class="fa fa-file-code-o" style="font-size:80px;color:white;padding-left:35%;margin:20px;"></i>
+                  <i class="fa fa-file-code-o" style="font-size:80px;color:#7c7c7b;padding-left:35%;margin:20px;"></i>
                   <h2 class="card-title mt-3">WEBSITE DEVELOPMENT</h2>
                   <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of
                      the card's content.
@@ -194,7 +206,7 @@
          <div class="col-lg-4 mt-4">
             <div class="card servicesText">
                <div class="card-body">
-                  <i class="fa fa-codepen"style="font-size:80px;color:white;padding-left:35%;margin:20px;"></i>
+                  <i class="fa fa-codepen"style="font-size:80px;color:#7c7c7b;padding-left:35%;margin:20px;"></i>
                   <h2 class="card-title mt-3">WEBSITE DESIGN</h2>
                   <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of
                      the card's content.
@@ -207,7 +219,7 @@
          <div class="col-lg-4 mt-4">
             <div class="card servicesText">
                <div class="card-body">
-                  <i class="fa fa-toggle-left" style="font-size:80px;color:white;padding-left:35%;margin:20px;"></i>
+                  <i class="fa fa-toggle-left" style="font-size:80px;color:#7c7c7b;padding-left:35%;margin:20px;"></i>
                   <h2 class="card-title mt-3">FRONTEND ENGINEER</h2>
                   <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of
                      the card's content.
@@ -216,13 +228,11 @@
                </div>
             </div>
          </div>
-      
-
-      
+            
          <div class="col-lg-4 mt-4">
             <div class="card servicesText">
                <div class="card-body">
-                  <i class="fa fa-camera" style="font-size:80px;color:white;padding-left:35%;margin:20px;"></i>
+                  <i class="fa fa-camera" style="font-size:80px;color:#7c7c7b;padding-left:35%;margin:20px;"></i>
                   <h2 class="card-title mt-3">PHOTOGRAPHY</h2>
                   <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of
                      the card's content.
@@ -235,7 +245,7 @@
          <div class="col-lg-4 mt-4">
             <div class="card servicesText">
                <div class="card-body">
-               <i class="fa fa-toggle-left" style="font-size:80px;color:white;padding-left:35%;margin:20px;"></i>
+               <i class="fa fa-toggle-left" style="font-size:80px;color:#7c7c7b;padding-left:35%;margin:20px;"></i>
                   <h2 class="card-title mt-3">PHOTO/VIDEO EDITING</h2>
                   <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of
                      the card's content.
@@ -248,7 +258,7 @@
          <div class="col-lg-4 mt-4">
             <div class="card servicesText">
                <div class="card-body">
-                  <i class="fa fa-toggle-left" style="font-size:80px;color:white;padding-left:35%;margin:20px;"></i>
+                  <i class="fa fa-toggle-left" style="font-size:80px;color:#7c7c7b;padding-left:35%;margin:20px;"></i>
                   <h2 class="card-title mt-3">BACKEND ENGINEER</h2>
                   <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of
                      the card's content.
@@ -259,124 +269,144 @@
          </div>
       </div>
    </div>
-   <div class="myportfolio">
+   <div class="myportfolio" id="four">
       <div class="portfolio-column">
          <h1>My Projects</h1>
          <p>Have a look at some of the project I worked on. I code, hard! I conceptualize, design, build from scratch and maintain scalable web experiences. The
             projects are developed using programming languages such as Javascript,Python and HTML , CSS.
          </p>
       </div>
-
       <div class="portfolio-column">
-         
-         
          <div class="button" href="">
-            <h4 style="color: #3b3c36;font-size:16px;margin-top:10%;">COVID-19 data web scraper</h4>
+            <h4 style="color: #7c7c7b;font-size:16px;margin-top:10%;">COVID-19 data web scraper</h4>
             <button type="button"onclick="window.location.href = 'https://www.geeksforgeeks.org/how-to-create-an-html-button-that-acts-like-a-link/'" >GITHUB</button>
             <button type="button">OPEN</button>
          </div>
          <div class="button" href="url">
-            <h4 style="color: #3b3c36; font-size:16px;margin-top:10%;">Calculator</h4>
+            <h4 style="color: #7c7c7b; font-size:16px;margin-top:10%;">Calculator</h4>
             <button type="button">GITHUB</button>
             <button type="button">OPEN</button>
          </div>
          <div class="button" href="url">
-            <h4 style="color: #3b3c36; font-size:16px; margin-top:10%;">Todo List</h4>
+            <h4 style="color: #7c7c7b; font-size:16px; margin-top:10%;">Todo List</h4>
             <button type="button" onclick="window.location.href = 'https://github.com/Fadiman741/Todolist'">GITHUB</button>
+            <button type="button" onclick="window.location.href = 'https://fadiman741.github.io/Todolist/'" >OPEN</button>
+         </div>
+         <div class="button" href="url">
+            <h4 style="color: #7c7c7b; font-size:16px;margin-top:10%;">Phonebook Application</h4>
+            <button type="button">GITHUB</button>
             <button type="button">OPEN</button>
          </div>
          <div class="button" href="url">
-            <h4 style="color: #3b3c36; font-size:16px;margin-top:10%;">Phonebook Application</h4>
+            <h4 style="color: #7c7c7b; font-size:16px; margin-top:10%;">Portfolio Website</h4>
+            <button type="button" onclick="window.location.href = 'https://github.com/Fadiman741/Todolist'">GITHUB</button>
+            <button type="button" onclick="window.location.href = 'https://fadiman741.github.io/Todolist/'">OPEN</button>
+         </div>
+         <div class="button" href="url">
+            <h4 style="color: #7c7c7b; font-size:16px;margin-top:10%;">Phonebook Application</h4>
             <button type="button">GITHUB</button>
             <button type="button">OPEN</button>
          </div>
       </div>
    </div>
-   <div class="container mt-3 contactContent">
+   <div id="five">
+      <h1 style="text-align:center ; color:#aaa ; font-size:100px; font-family: Arial;margin-top:60%">Gallery</h1>
+      <p style="text-align:center ;color:#7c7c7b; font-size:25px; font-family: Arial">Some quick example text to build on the card title and make up the bulk of
+      the card's content.</p>
+      <div class="gallery1" style="margin-top:100px">
+   
+         <a href="lesego2.jpg" data-lightbox="image" data-title=" Dope"><img src="lesego2.jpg" /></a>
+         <a href="images/lesego2.jpg" data-lightbox="image" data-title=" Dope"><img src="images/lesego2.jpg" /></a>
+         <a href="images/lesego2.jpg" data-lightbox="image" data-title=" Dope"><img src="images/lesego2.jpg" /></a>
+         <a href="images/lesego2.jpg" data-lightbox="image" data-title=" Dope"><img src="images/lesego2.jpg" /></a>
+         
+         <a href="images/lesego2.jpg" data-lightbox="image" data-title=" Dope"><img src="images/lesego2.jpg" /></a>
+         <a href="images/lesego2.jpg" data-lightbox="image" data-title=" Dope"><img src="images/lesego2.jpg" /></a>
+         <a href="images/lesego2.jpg" data-lightbox="image" data-title=" Dope"><img src="images/lesego2.jpg" /></a>
+         <a href="images/lesego2.jpg" data-lightbox="image" data-title=" Dope"><img src="images/lesego2.jpg"/></a>
+         
+         <a href="images/lesego2.jpg" data-lightbox="image" data-title=" Dope"><img src="images/lesego2.jpg"/></a>
+         <a href="images/lesego2.jpg" data-lightbox="image" data-title=" Dope"><img src="images/lesego2.jpg" /></a>
+         <a href="images/lesego2.jpg" data-lightbox="image" data-title=" Dope"><img src="images/lesego2.jpg" /></a>
+         <a href="images/lesego2.jpg" data-lightbox="image" data-title=" Dope"><img src="images/lesego2.jpg" /></a>
+   
+      </div>
+   </div>
+   <div class="container mt-3 contactContent" id="six">
       <h2>Send me a message!</h2>
       <p>Got a question or proposal, or just want
          to say hello? Go ahead.</p>
 
       <div class="col-lg-6">
          <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
-         <div style="max-width:100%;list-style:none; transition: none;overflow:hidden;width:500px;height:500px;">
-            <div id="googlemaps-display" style="height:100%; width:100%;max-width:100%;"><iframe
-                  style="height:100%;width:100%;border:0;" frameborder="0"
-                  src="https://www.google.com/maps/embed/v1/place?q=jane+furse&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
-            </div><a class="codefor-google-map" href="https://www.embed-map.com" id="authmaps-data">https://www.embed-map.com</a>
+         <div style="overflow:hidden;max-width:100%;width:500px;height:500px;">
+            <div id="gmapcanvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;"
+                  frameborder="0"
+                  src="https://www.google.com/maps/embed/v1/place?q=Cape+Town+Belville&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+            </div><a class="googlehtml" href="https://www.embed-map.com" id="get-mapdata">https://www.embed-map.com</a>
             <style>
-           
-         
-               .map-generator {
-                  max-width: 100%;
-                  max-height: 100%;
-                  background: none;}
+               #gmapcanvas img.text-marker {
+                  max-width: none !important;
+                  background: none !important;
+               }
+               img {
+                  max-width: none
+               }
             </style>
          </div>
-        
       </div>
 
-      <div class="col-lg-6">
-         <form class="form" onSubmit="sendEmail(); reset(); ">
+      <div class="col-lg-6" >
+         <form class="form" action="https://formsubmit.co/wiskatp2018@gmail.com" method="POST">
             <label for="fname">Your Name:</label>
-            <input id="name" type="text" class="form-control form-control-lg" placeholder="Name" required>
+            <input style=" background-color: rgb(43, 43, 43);color:#aaa" id="name" type="text" class="form-control form-control-lg" placeholder="Name" required>
             <label for="fname">Email:</label>
-            <input id="email" type="email" class="form-control mt-3" placeholder="Email" required>
+            <input style="  background-color: rgb(43, 43, 43);color:#aaa" id="email" type="email" class="form-control mt-3" placeholder="Email" required>
+            <input type="hidden" name="_next" value="thankyou.html">
             <div class="mb-3 mt-3">
                <label for="fname">Message:</label>
-               <textarea id="message" class="form-control" rows="5" id="comment" name="text"
+               <textarea style="  background-color: rgb(43, 43, 43);color:#aaa"id="message" class="form-control" rows="5" id="comment" name="text"
                   placeholder="Type your message" required></textarea>
             </div>
             <button type="submit" class="Contactme-btn">Send</button>
          </form>
-         
-
       </div>
-
-
    </div>
-   <script src="https://smtpjs.com/v3/smtp.js"></script>
-   <script src="contactFrom.js"></script>
-
 </body>
 <footer>
    <div class="footer-row">
-      <div class="footer-column" style="background-color:#3B3C36;">
+      <div class="footer-column" style="background-color:rgb(43, 43, 43);">
          <h2>Navigation</h2>
-         <li>Home</li>
-         <li>About</li>
-         <li>Skills</li>
-         <li>Projects</li>
-         <li>Contact</li>
+         <li><a style="color: #aaa;text-decoration: none;"href="#home">Home</a></li>
+         <li><a style="color: #aaa;text-decoration: none;"href="#one">About</a></li>
+         <li><a style="color: #aaa;text-decoration: none;" href="#two">Skills</a></li>
+         <li><a style="color: #aaa;text-decoration: none;"  href="#four">Projects</a></li>
+         <li><a style="color: #aaa;text-decoration: none;" href="#three">Services</a></li>
+
       </div>
-      <div class="footer-column" style="background-color:#3B3C36;">
+      <div class="footer-column" style="background-color:rgb(43, 43, 43);">
          <h2>Contact</h2>
          <li><i class="fa fa-envelope" style="font-size:20px"> </i>mafadi.lephaka21@gmail.com</li>
          <li><i class="fa fa-phone-square" style="font-size:20px"></i>0798672741</li>
          <li><i class="fa fa-home" style="font-size:24px"></i>273 Bellvile Robert Sebokwe</li>
          <li><i class="fa fa-map-pin" style="font-size:24px"></i>Cape Town</li>
       </div>
-      <div class="footer-column" style="background-color:#3B3C36;">
+      <div class="footer-column" style="background-color:rgb(43, 43, 43);">
          <h2>Socials</h2>
-         <li><i class="fa fa-github-square" style="font-size:24px"></i>Github</li>
-         <li><i class="fa fa-whatsapp" style="font-size:20px"></i>Whatsapp</li>
-         <li><i class="fa fa-telegram" style="font-size:20px"></i>Telegram</li>
-         <li><i class="fa fa-youtube-play" style="font-size:20px"></i>Youtube</li>
-         <li><i class="fa fa-linkedin-square" style="font-size:20px"></i>Linked In</li>
+         <li><i class="fa fa-github-square" style="font-size:24px"></i><a style="color: #aaa;text-decoration: none;" href="">Gibhub</a></li></li>
+         <li><i class="fa fa-whatsapp" style="font-size:20px"></i><a style="color: #aaa;text-decoration: none;" href="">Whatsapp</a></li>
+         <li><i class="fa fa-telegram" style="font-size:20px"></i><a style="color: #aaa;text-decoration: none;" href="">Telegram</a></li>
+         <li><i class="fa fa-youtube-play" style="font-size:20px"></i><a style="color: #aaa;text-decoration: none;" href="">YouTube</a></li>
+         <li><i class="fa fa-linkedin-square" style="font-size:20px"></i><a style="color: #aaa;text-decoration: none;" href="linkedin.com/mafadilephaka">Linked in</a></li>
       </div>
-      <div class="footer-column" style="background-color:#3B3C36;">
+      <div class="footer-column" style="background-color:rgb(43, 43, 43);">
          <h2>Education</h2>
          <li></i><i class="fa fa-graduation-cap" aria-hidden="true" style="font-size:20px"></i>Bsc Computer Science </li>
          <li><i class="fa fa-institution" style="font-size:20px"></i>University of the Western Cape</li>
-
-
       </div>
-      <hr>
+      <hr style="color:#7c7c7b">
       <p>&copy; 2022 Developer:mafadilephaka
-
       </p>
    </div>
-
 </footer>
-
 </html>
