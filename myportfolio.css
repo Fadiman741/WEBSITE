@@ -13,9 +13,10 @@
   float: left;
   width: 50%;
   font-family: Arial;
+  
   color: rgb(58, 56, 54);
   font-size: 20px;
-  background-color: white;
+  background-color: black;
 }
 .portfolio-column h1 {
   margin: 20px;
@@ -23,20 +24,21 @@
 .portfolio-column p {
   margin-top: 30px;
   font-size: 17px;
+  color: #aaa;
 }
 .button {
   font-size: 24px;
   text-align: center;
   cursor: pointer;
   outline: none;
-  color: #3b3c36;
+  color: #aaa;
   border: 3px;
   border-radius: 15px;
-  height: 180px;
+  height: 150px;
   width: 250px;
   float: left;
   margin: 10px;
-  background-color: #ddd;
+  background-color: rgb(43, 43, 43);
   position: relative;
 }
 .portfolio-column button {
@@ -47,14 +49,20 @@
 
   float: left;
   border-radius: 5px;
-  margin-top: 80px;
+  margin-top: 60px;
   margin-left: 15px;
   border: 2px solid white;
 }
 .button:hover button {
-  background-color: white;
+  background-color: #ccc;
   display: block;
 }
 .portfolio-column button:hover {
   box-shadow: 0px 0px 2px 2px #3b3c36;
+}
+@media only screen and (max-width:1500px) {
+  .myportfolio {
+    margin: 3%;
+  }
+
 }

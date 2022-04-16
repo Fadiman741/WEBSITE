@@ -1,5 +1,5 @@
 .contactContent {
-  margin: 20%;
+  margin: 10%;
 }
 .col-lg-6 {
   float: left;
@@ -43,15 +43,22 @@
   margin-bottom: 70px;
   font-size: 25px;
   font-family: Arial;
+  color:#aaa;
 }
 label {
   font-size: 16px;
   margin-left: 20px;
   font-family: Arial;
+    color:#aaa;
 }
 iframe {
   width: 100%;
 }
 textarea {
   font-family: Arial;
+}
+@media only screen and (max-width: 1500px) {
+  .contactContent {
+    margin: 5%;
+  }
 }
