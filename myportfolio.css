@@ -35,14 +35,14 @@
   border: 3px;
   border-radius: 15px;
   height: 150px;
-  width: 250px;
+  width: 35%;
   float: left;
   margin: 10px;
   background-color: rgb(43, 43, 43);
   position: relative;
 }
 .portfolio-column button {
-  width: 100px;
+  width: 40%;
 
   height: 40px;
   display: none;
@@ -50,7 +50,7 @@
   float: left;
   border-radius: 5px;
   margin-top: 60px;
-  margin-left: 15px;
+  margin-left: 5%;
   border: 2px solid white;
 }
 .button:hover button {

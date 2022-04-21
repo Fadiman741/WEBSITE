@@ -1,9 +1,9 @@
 .gallery1 {
-  margin: 12px 12px;
+  margin-left:  2%;
 }
 
 .gallery1 img {
-  width: 358px;
+  width: 24%;
   border-radius: 15px;
   float: center;
   filter: grayscale(0);
@@ -15,7 +15,7 @@
 .gallery1 img:hover {
   filter: grayscale(0);
   border-radius: 30px;
-    border: 10px solid #aaa;
+    border: 10px solid #05faa8;
   
 
 }
