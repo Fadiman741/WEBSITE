@@ -156,6 +156,28 @@ body {
   border-color: #6a12b8;
 }
 
+.topnav {
+  background-color: #3B3C36;
+  overflow: hidden;
+  height: 50px;
+  border: 3px #05faa8;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 1px 1px 0px 0.1px white;
+}
+
+.topnav a {
+  color: #f2f2f2;
+  float: right;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.topnav a:hover {
+  background-color: #05faa8;
+  color: #6a12b8;
+}
 
 @media only screen and (max-width: 1500px) {
   body {
@@ -275,5 +297,27 @@ body {
     height: 50px;
     margin-left: 7px;
     margin-top: 80px;
+  }
+  .topnav {
+    background-color: #3B3C36;
+    overflow: hidden;
+    height: 50px;
+    border: 3px #05faa8;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 1px 1px 0px 0.1px white;
+  }
+  
+  .topnav a {
+    color: #f2f2f2;
+    float: right;
+    text-align: center;
+    padding: 14px 7px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+  .topnav a:hover {
+    background-color: #05faa8;
+    color: #6a12b8;
   }
 }
