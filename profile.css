@@ -6,9 +6,9 @@
 body {
   margin-left: 15%;
   margin-right: 15%;
-  background-color: black;
+  background-color:black ;
 
-  box-shadow:inset 0px 0px 2px 10px rgb(28, 28, 28);
+  box-shadow:inset 0px 0px 2px 5px #151515;
 }
 .column {
   float: left;
@@ -18,7 +18,7 @@ body {
 .left {
   width: 70%;
   border-top-left-radius: 600px;
-  opacity: 0.8;
+
 }
 .right {
   width: 30%;
@@ -66,6 +66,7 @@ body {
   border-radius: 10px;
 }
 .column p {
+  
   margin-left: 5%;
   font-family: Arial;
   color: white;
@@ -77,7 +78,7 @@ body {
 .column img {
   display: block;
   margin-top: 100px;
-  width: 400px;
+  width: 90%;
   height: auto;
   margin-left: -20%;
   background-color: #008cba;
@@ -160,6 +161,7 @@ body {
   body {
     margin-left: 0;
     margin-right: 0;
+    box-shadow: 0px 0px 0px 0px black;
   }
 
 
@@ -183,6 +185,7 @@ body {
 @media only screen and (max-width: 800px) {
 .column img {
   display: block;
+  margin-top: 10px;
 
   width: 50%;
 

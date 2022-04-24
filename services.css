@@ -28,7 +28,7 @@ color: #aaa;
 }
 .col-lg-4 p {
   font-family: Arial;
-color: #aaa;
+color: #ddd;
   font-size: 16px;
   text-align: center;
   margin: 20px;
@@ -37,23 +37,23 @@ color: #aaa;
   margin-top: 60%;
   margin-bottom: 150px;
   font-family: Arial;
-  color: #aaa;
+  color: #ddd;
   text-align: center;
   font-size: 100px;
 }
 .card-body {
-  box-shadow: 0px 0px 1px 1px rgb(43, 43, 43);
-  background-color: rgb(43, 43, 43);
+/*box-shadow: 0px 0px 5px 5px #112240;*/
+  background-color: rgb(18, 18, 18);
   height: 300px;
   border-radius: 20px;
-  border: 1px solid rgb(43, 43, 43);
+/*  border: 1px solid rgb(43, 43, 43);*/
 }
 
 .card-body:hover,
 .card-body:focus,
 .card-body:active {
   border: 2px solid rgb(43, 43, 43);
-  box-shadow: 0px 0px 20px 2px #bbb;
+  box-shadow: 0px 0px 10px 2px #bbb;
   -webkit-transform: scale(1.01);
   transform: scale(1.03);
 }

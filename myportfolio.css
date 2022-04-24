@@ -2,45 +2,73 @@
   margin: 10%;
 }
 .myportfolio h1 {
-  color: #aaa;
+  color: #ddd;
 
   font-size: 100px;
 }
-.portfolio-column {
+.portfolio-column1 {
   margin-top: 10%;
   height: 650px;
 
   float: left;
-  width: 50%;
+  width: 40%;
   font-family: Arial;
   
   color: rgb(58, 56, 54);
   font-size: 20px;
   background-color: black;
 }
-.portfolio-column h1 {
+.portfolio-column {
+  margin-top: 10%;
+  height: 650px;
+
+  float: left;
+  width: 60%;
+  font-family: Arial;
+
+  color: rgb(58, 56, 54);
+  font-size: 20px;
+  background-color: black;
+
+}
+.portfolio-column1 h1 {
   margin: 20px;
 }
-.portfolio-column p {
+.portfolio-column1 p {
   margin-top: 30px;
   font-size: 17px;
-  color: #aaa;
+  color: #ddd;
 }
 .button {
+
   font-size: 24px;
   text-align: center;
   cursor: pointer;
   outline: none;
-  color: #aaa;
+  color: #ddd;
   border: 3px;
   border-radius: 15px;
-  height: 150px;
-  width: 35%;
+  height: 160px;
+  width: 45%;
+  margin-top:5px;
   float: left;
-  margin: 10px;
-  background-color: rgb(43, 43, 43);
+  margin-left: 30px;
+  background-color: rgb(18, 18, 18);
   position: relative;
+
 }
+
+
+
+.button:hover,
+.button:focus,
+.button:active {
+  border: 2px solid rgb(43, 43, 43);
+  box-shadow: 0px 0px 5px 2px #bbb;
+  -webkit-transform: scale(1.01);
+  transform: scale(1.03);
+}
+
 .portfolio-column button {
   width: 40%;
 
@@ -59,10 +87,4 @@
 }
 .portfolio-column button:hover {
   box-shadow: 0px 0px 2px 2px #3b3c36;
-}
-@media only screen and (max-width:1500px) {
-  .myportfolio {
-    margin: 3%;
-  }
-
 }
