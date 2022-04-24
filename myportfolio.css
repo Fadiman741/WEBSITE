@@ -88,3 +88,63 @@
 .portfolio-column button:hover {
   box-shadow: 0px 0px 2px 2px #3b3c36;
 }
+@media only screen and (max-width: 600px) {
+
+  
+  .myportfolio h1 {
+    color: #ddd;
+  
+    font-size: 50px;
+  }
+  
+  .portfolio-column1 {
+    margin-top: 10%;
+height: 250px;
+    float: left;
+    width: 100%;
+    font-family: Arial;
+  
+    color: rgb(58, 56, 54);
+    font-size: 20px;
+    background-color: black;
+  }
+  
+  .portfolio-column {
+    width: 100%;
+    font-family: Arial;
+  
+    color: rgb(58, 56, 54);
+    font-size: 20px;
+    background-color: black;
+  
+  }
+  
+  .portfolio-column1 h1 {
+    margin: 20px;
+  }
+  
+  .portfolio-column1 p {
+    margin-top: 30px;
+    font-size: 17px;
+    color: #ddd;
+  }
+  
+  .button {
+  
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #ddd;
+    border: 3px;
+    border-radius: 15px;
+    height: 160px;
+    width: 40%;
+    margin-top: 5px;
+    float: left;
+    margin-left: 5%;
+    background-color: rgb(18, 18, 18);
+    position: relative;
+  
+  }
+}

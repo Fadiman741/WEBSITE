@@ -1,7 +1,7 @@
 footer {
   text-align: center;
   padding: 3px;
-  background-color:rgb(18, 18, 18);;
+  background-color:rgb(18, 18, 18);
   color: #aaa;
   height: 400px;
   margin-top: 50%;
@@ -26,9 +26,27 @@ footer {
   margin-top: 25px;
   list-style-type: none;
   text-align: left;
-  margin-left: 80px;
+  margin-left: 50px;
 }
 .footer-column h2 {
   text-align: left;
-  margin-left: 100px;
+  margin-left: 50px;
+}
+@media only screen and (max-width: 600px) {
+  footer {
+    text-align: center;
+
+    background-color: black;
+    color: #aaa;
+ 
+
+  }
+  .footer-column {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    height: 300px;
+    /* Should be removed. Only for demonstration */
+    font-family: arial;
+  }
 }
