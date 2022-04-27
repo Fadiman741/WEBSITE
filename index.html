@@ -41,9 +41,9 @@
          
          <div id="myheader" class="topnav">
             <a class="active" href="#six">Contact</a>
-            <a href="#five">Gallery</a>
+           <!-- <a href="#five">Gallery</a>-->
             <a href="#four">Projects</a>
-            <a href="#three">Services</a>
+           <!-- <a href="#three">Services</a>-->
             <a href="#two">Skills</a>
             <a href="#one">About</a>
             
@@ -51,8 +51,8 @@
          <h1>I'm </h1>
          <h2>Mafadi Lephaka</h2>
          <h3>Software Developer || Web Developer</h3>
-         <a href="Mafadicv.pdf" download="w3logo">
-            <button src="/myw3schoolsimage.jpg"><i class="fa fa-download" style="font-size:16px; padding: 2px"></i>Download Resume</button>
+         <a href="/pdf/Mafadicv.pdf" download="w3logo">
+            <button ><i class="fa fa-download" style="font-size:16px; padding: 2px"></i>Download Resume</button>
            
          </a>
          <!--<button  ><i class="fa fa-download" style="font-size:16px; padding: 2px"></i>Download Resume</button>-->
@@ -171,7 +171,7 @@
             </ul>
       </div>
    </div>
-   <div class="container" id="three">
+   <div class="container" id="three" style="display: none">
       <h1 class="text-center">Services</h1>
       <div class="row">
          <div class="col-lg-4 mt-4">
@@ -252,47 +252,55 @@
          </div>
       </div>
    </div>
-   <div class="myportfolio" id="four">
-      <div class="portfolio-column1">
+   <div class="myportfolio"  >
+      <div class="portfolio-column1" id="four" >
          <h1>My Projects</h1>
          <p>Have a look at some of the project I worked on.I conceptualize, design, build from scratch and maintain scalable web experiences. The
             projects are developed using programming languages such as React, Javascript,Python and HTML , CSS.
          </p>
       </div>
-      <div class="portfolio-column">
+      <div class="portfolio-column" >
          <div class="button" href="">
             <h4 style="color: #ddd;font-size:16px;margin-top:10%;">COVID-19 data web scraper</h4>
+            <div style="height:60px">
+               <p style="font-size:15px; margin: 6% ;">Scraped the number of COVID cases from several South African and international sources and made the data
+               available through an API after cleaning and sorting.
+               The purpose was to present data as charts and tables in a webpage for visual consumption.</p>
+            </div>
             <button type="button"onclick="window.location.href = 'https://www.geeksforgeeks.org/how-to-create-an-html-button-that-acts-like-a-link/'" >GITHUB</button>
             <button type="button">OPEN</button>
          </div>
          <div class="button" href="url">
             <h4 style="color: #ddd; font-size:16px;margin-top:10%;">Calculator</h4>
+            <div style="height:60px">
+               <p style="font-size:15px; margin: 6% ;">Developed a basic arithmetic calculator (in using React) that could perform mathematical operations and it’s
+               also mobile/Computer friendly.</p>
+            </div>
             <button type="button">GITHUB</button>
             <button type="button">OPEN</button>
          </div>
          <div class="button" href="url">
             <h4 style="color: #ddd; font-size:16px; margin-top:10%;">Todo List</h4>
+            <div style="height:60px">
+               <p style="font-size:15px; margin: 6% ;"> A Todo list which you can add your wish list delete them when completed them and it’s also mobile/Computer
+               friendly.</p>
+            </div>
             <button type="button" onclick="window.location.href = 'https://github.com/Fadiman741/Todolist'">GITHUB</button>
             <button type="button" onclick="window.location.href = 'https://fadiman741.github.io/Todolist/'" >OPEN</button>
          </div>
-         <div class="button" href="url">
-            <h4 style="color: #ddd; font-size:16px;margin-top:10%;">Phonebook Application</h4>
-            <button type="button">GITHUB</button>
-            <button type="button">OPEN</button>
-         </div>
+        
          <div class="button" href="url">
             <h4 style="color: #ddd; font-size:16px; margin-top:10%;">Portfolio Website</h4>
+            <div style="height:60px">
+               <p style="font-size:15px; margin: 6% ;"> Working on a website that include my resume portfolio, profile, skills and experience also contact details.</p>
+            </div>
             <button type="button" onclick="window.location.href = 'https://github.com/Fadiman741/Todolist'">GITHUB</button>
             <button type="button" onclick="window.location.href = 'https://fadiman741.github.io/Todolist/'">OPEN</button>
          </div>
-         <div class="button" href="url">
-            <h4 style="color: #ddd; font-size:16px;margin-top:10%;">Phonebook Application</h4>
-            <button type="button">GITHUB</button>
-            <button type="button">OPEN</button>
-         </div>
+         
       </div>
    </div>
-   <div id="five" class="gallery">
+   <div id="five" class="gallery" style="display: none">
       <h1 >Gallery</h1>
       <p >Some quick example text to build on the card title and make up the bulk of
       the card's content.</p>
@@ -315,8 +323,8 @@
    
       </div>
    </div>
-   <div class="container mt-3 contactContent" id="six">
-      <h2>Send me a message!</h2>
+   <div class="container mt-3 contactContent" id="six" >
+      <h2 >Send me a message!</h2>
       <p>Got a question or proposal, or just want
          to say hello? Go ahead.</p>
 
@@ -339,7 +347,7 @@
          </div>
       </div>
 
-      <div class="col-lg-6" >
+      <div class="col-lg-6"  >
          <form class="form" action="https://formsubmit.co/wiskatp2018@gmail.com" method="POST">
             <label for="fname">Your Name:</label>
             <input style=" background-color: rgb(18, 18, 18);color:#ddd" id="name" type="text" class="form-control form-control-lg" placeholder="Name" required>
@@ -364,7 +372,7 @@
          <li><a style="color: #ddd;text-decoration: none;"href="#one">About</a></li>
          <li><a style="color: #ddd;text-decoration: none;" href="#two">Skills</a></li>
          <li><a style="color: #ddd;text-decoration: none;"  href="#four">Projects</a></li>
-         <li><a style="color: #ddd;text-decoration: none;" href="#three">Services</a></li>
+        <!-- <li><a style="color: #ddd;text-decoration: none;" href="#three">Services</a></li>-->
 
       </div>
       <div class="footer-column" style="background-color:rgb(18, 18, 18);">
@@ -378,7 +386,7 @@
          <h2>Socials</h2>
          <li><i class="fa fa-github-square" style="font-size:24px"></i><a style="color: #ddd;text-decoration: none;" href="https://github.com/Fadiman741">Gibhub</a></li>
          <li><i class="fa fa-whatsapp" style="font-size:20px"></i><a style="color: #ddd;text-decoration: none;" href="https://wa.me/7796872741">Whatsapp</a></li>
-         <li><i class="fa fa-telegram" style="font-size:20px"></i><a style="color: #ddd;text-decoration: none;" href="">Telegram</a></li>
+        <!-- <li><i class="fa fa-telegram" style="font-size:20px"></i><a style="color: #ddd;text-decoration: none;" href="">Telegram</a></li>-->
          <li><i class="fa fa-youtube-play" style="font-size:20px"></i><a style="color: #ddd;text-decoration: none;" href="">YouTube</a></li>
          <li><i class="fa fa-linkedin-square" style="font-size:20px"></i><a style="color: #ddd;text-decoration: none;" href="https://www.linkedin.com/in/mafadilephaka/">Linked in</a></li>
       </div>
