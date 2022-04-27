@@ -224,6 +224,7 @@ body {
   
   .column h2 {
     margin-left: 12%;
+    margin-top: 3%;
     color: #05faa8;
     font-size: 45px;
     font-family: Arial;
@@ -232,7 +233,7 @@ body {
   
   .column h3 {
     background-color: #05faa8;
-    margin-top: 2%;
+    margin-top: 3%;
     margin-left: 5%;
     color: #6a12b8;
     font-size: 20px;
@@ -249,6 +250,7 @@ body {
   .column p {
   
     margin-left: 5%;
+    margin-top: 3%;
     font-family: Arial;
     color: white;
     font-size: 15px;
@@ -269,7 +271,7 @@ body {
   .skill-column p {
     font-size: 12px;
     color: white;
-    margin: 5%;
+  
     text-align: left;
   }
   .addressbar li {

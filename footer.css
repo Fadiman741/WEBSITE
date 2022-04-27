@@ -23,19 +23,18 @@ footer {
   clear: both;
 }
 .footer-column li {
-  margin-top: 25px;
+  margin-top: 10%;
   list-style-type: none;
   text-align: left;
-  margin-left: 50px;
+  margin-left: 3%;
 }
 .footer-column h2 {
   text-align: left;
-  margin-left: 50px;
+  margin-left: 3%;
 }
 @media only screen and (max-width: 600px) {
   footer {
     text-align: center;
-
     background-color: black;
     color: #aaa;
  
@@ -45,8 +44,14 @@ footer {
     float: left;
     width: 100%;
     padding: 10px;
-    height: 300px;
-    /* Should be removed. Only for demonstration */
+   margin:2%;
     font-family: arial;
+    height:180px;
+  }
+  .footer-column li {
+    margin-top: 3%;
+    list-style-type: none;
+    text-align: left;
+    margin-left: 3%;
   }
 }

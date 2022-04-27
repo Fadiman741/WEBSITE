@@ -1,5 +1,6 @@
 .skills-container {
   margin: 2%;
+  display:inline-block;
 }
 .skills {
   float: left;
@@ -14,7 +15,6 @@
   box-shadow: 0px 0px 1px 1px rgb(18, 18, 18);
 }
 .skills-container h1 {
-  margin-top: 60%;
   color: #ddd;
   text-align: center;
   font-size: 80px;
@@ -108,7 +108,7 @@
 }
 
 .skills-container h1 {
-  margin-top: 60%;
+
   color: #ddd;
   text-align: center;
   font-size: 50px;
