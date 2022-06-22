@@ -1,7 +1,8 @@
 .skills-container {
   margin: 2%;
-  display:inline-block;
+  display: inline-block;
 }
+
 .skills {
   float: left;
   width: 50%;
@@ -14,6 +15,7 @@
   border-left: 1px solid rgb(43, 43, 43);
   box-shadow: 0px 0px 1px 1px rgb(18, 18, 18);
 }
+
 .skills-container h1 {
   color: #ddd;
   text-align: center;
@@ -21,6 +23,7 @@
 
   font-family: Mono, monospace;
 }
+
 .skills-column ul {
   margin: 20px;
   text-align: left;
@@ -31,7 +34,7 @@
   position: relative;
   list-style-type: none;
   padding-left: 2.5rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.2rem;
   text-align: left;
 }
 
@@ -49,6 +52,7 @@
   transform-origin: bottom left;
   transform: rotate(45deg);
 }
+
 *,
 *:before,
 *:after {
@@ -66,9 +70,11 @@
 .rotate_right {
   float: left;
 }
+
 .rotate_left {
   float: left;
 }
+
 .center {
   float: left;
 }
@@ -89,44 +95,45 @@
   -webkit-transform: scale(1.01);
   transform: scale(1.03);
 }
+
 @media only screen and (max-width: 600px) {
-.skills-container {
-  margin: 4%;
+  .skills-container {
+    margin: 4%;
+  }
+
+  .skills {
+    float: left;
+    width: 100%;
+    font-family: Arial;
+    color: #ddd;
+    font-size: 17px;
+    background-color: rgb(18, 18, 18);
+    margin-top: 10%;
+    opacity: 0.9;
+    border-left: 1px solid rgb(43, 43, 43);
+    box-shadow: 0px 0px 1px 1px rgb(18, 18, 18);
+  }
+
+  .skills-container h1 {
+
+    color: #ddd;
+    text-align: center;
+    font-size: 50px;
+
+    font-family: Mono, monospace;
+  }
+
+  .skills-column ul {
+    margin: 20px;
+    text-align: left;
+    font-family: "Helvetica Neue", sans-serif;
+  }
+
+  .skills {
+
+    height: 650px;
+    padding: 10px 10px 20px 10px;
+    opacity: 0.95;
+  }
+
 }
-
-.skills {
-  float: left;
-  width: 100%;
-  font-family: Arial;
-  color: #ddd;
-  font-size: 17px;
-  background-color: rgb(18, 18, 18);
-  margin-top: 10%;
-  opacity: 0.9;
-  border-left: 1px solid rgb(43, 43, 43);
-  box-shadow: 0px 0px 1px 1px rgb(18, 18, 18);
-}
-
-.skills-container h1 {
-
-  color: #ddd;
-  text-align: center;
-  font-size: 50px;
-
-  font-family: Mono, monospace;
-}
-
-.skills-column ul {
-  margin: 20px;
-  text-align: left;
-  font-family: "Helvetica Neue", sans-serif;
-}
-.skills {
-
-  height: 650px;
-  padding: 10px 10px 20px 10px;
-  opacity: 0.95;
-}
-
-}
-
